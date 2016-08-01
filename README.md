@@ -12,11 +12,12 @@ $ npm install --save osb-computing-service
 ```js
 var osbComputingService = require('osb-computing-service');
 
-osbComputingService('Rainbow');
+var filter = new osbComputingService.LogicFilter();
+filter.compile(testCase.expression);
 ```
 ## License
 
-Apache-2.0 © [gorebill]()
+Apache-2.0 © [gorebill](@OSB Team)
 
 
 [npm-image]: https://badge.fury.io/js/osb-computing-service.svg
