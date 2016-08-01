@@ -17,7 +17,7 @@ filter.compile(testCase.expression);
 ```
 ## License
 
-Apache-2.0 © [gorebill](@OSB Team)
+Apache-2.0 © [gorebill @OSB Team]()
 
 
 [npm-image]: https://badge.fury.io/js/osb-computing-service.svg

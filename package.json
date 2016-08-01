@@ -54,6 +54,8 @@
       "comma-spacing": "off",
       "spaced-comment": "off",
       "object-curly-spacing": "off",
+      "no-implicit-coercion": "off",
+      "max-lines": "off",
       "no-unused-vars": [
         "warn",
         {
