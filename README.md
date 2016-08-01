@@ -7,6 +7,17 @@
 $ npm install --save osb-computing-service
 ```
 
+## Test
+```sh
+$ npm test
+```
+
+or
+
+```sh
+$ mocha test/logic-filter.js
+```
+
 ## Usage
 
 ```js
@@ -44,12 +55,16 @@ Apache-2.0 © [gorebill @OSB Team]()
 
 
 
-
-Ref: 
+```
+## Ref: 
 https://github.com/yeoman/generator-node
+
 https://babeljs.io/docs/learn-es2015/
+
 http://eslint.org/docs/rules
+
 http://eslint.org/docs/user-guide/configuring#configuring-rules
+
 
 
 
