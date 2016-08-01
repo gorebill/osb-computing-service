@@ -63,7 +63,7 @@
       ]
     }
   },
-  "repository": "git@github.com:gorebill@163.com/osb-computing-service.git",
+  "repository": "git@github.com:gorebill/osb-computing-service.git",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
