@@ -12,6 +12,11 @@ $ npm install --save osb-computing-service
 ```js
 var osbComputingService = require('osb-computing-service');
 
+var userdata = {
+  'rs1234': true,
+  'rs10': true,
+  'rs11': true
+};
 
 var testCase = {expression: 'and(rs1234, rs9)', shouldBe: false};
 var filter = new osbComputingService.LogicFilter();
