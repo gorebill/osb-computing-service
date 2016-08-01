@@ -12,8 +12,17 @@ $ npm install --save osb-computing-service
 ```js
 var osbComputingService = require('osb-computing-service');
 
+
+var testCase = {expression: 'and(rs1234, rs9)', shouldBe: false};
 var filter = new osbComputingService.LogicFilter();
 filter.compile(testCase.expression);
+
+var resolver = function (value) {
+  return !!userdata[value];
+};
+
+var result = filter.execute(resolver) == testCase.shouldBe;
+
 ```
 ## License
 
