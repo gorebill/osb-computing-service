@@ -1,6 +1,10 @@
 # osb-computing-service [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > 
 
+## Background
+These utils are aimed to SNPedia supporting. For example, LogicFilter is for the genoset criteria's recursive logic.
+
+
 ## Installation
 
 ```sh
