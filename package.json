@@ -1,0 +1,76 @@
+{
+  "name": "osb-computing-service",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "gorebill",
+    "email": "gorebill@163.com",
+    "url": ""
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "computing",
+    "service",
+    "logic"
+  ],
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.14.0",
+    "babel-eslint": "^6.1.2",
+    "eslint-plugin-babel": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-babel": "^6.1.2",
+    "del": "^2.0.2",
+    "babel-core": "^6.11.4",
+    "babel-register": "^6.9.0",
+    "babel-preset-es2015": "6.9.0",
+    "isparta": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    },
+    "rules": {
+      "eqeqeq": "off",
+      "dot-notation": "off",
+      "no-multiple-empty-lines": "off",
+      "no-warning-comments": "off",
+      "quote-props": "off",
+      "padded-blocks": "off",
+      "keyword-spacing": "off",
+      "operator-linebreak": "off",
+      "comma-spacing": "off",
+      "spaced-comment": "off",
+      "object-curly-spacing": "off",
+      "no-unused-vars": [
+        "warn",
+        {
+          "vars": "all",
+          "args": "after-used"
+        }
+      ]
+    }
+  },
+  "repository": "git@github.com:gorebill@163.com/osb-computing-service.git",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5",
+    "lodash": "^4.14.1"
+  }
+}
